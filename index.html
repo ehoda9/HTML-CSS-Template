@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML and CSS Template" />
+    <meta name="keywords" content="HTML, CSS, Template" />
+    <meta name="author" content="Mahmoud Mohamed" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./public/reset.css" />
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="stylesheet" href="./public/responsive.css" />
+    <title>Html, Css Template</title>
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <div class="header__top">
+          <!-- social icons section-->
+          <div class="social">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+          </div>
+          <!-- Search section-->
+          <div class="search__bar">
+            <form class="form" action="#" method="post">
+              <label for="look">Search :</label>
+              <input
+                type="text"
+                name="look"
+                id="look"
+                class="look"
+                placeholder="Search for something..."
+              />
+              <button type="submit" class="btn__search">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <!-- Submenu section-->
+          <div class="submenu__btn">
+            <i class="fa fa-bell"><pre>3</pre></i>
+          </div>
+          <div class="submenu hidemenu">
+            <h1 class="submenu__logo">Messages</h1>
+            <ul class="submenu__list">
+              <li class="list__subitem">
+                <div class="head">
+                  <span class="title">product</span>
+                  <span class="price"
+                    >70$<sup><del>100$</del></sup></span
+                  >
+                </div>
+                <img src="./Public/images/product.jpg" alt="product" />
+              </li>
+              <li class="list__subitem">
+                <div class="head">
+                  <span class="title">product</span>
+                  <span class="price"
+                    >70$<sup><del>100$</del></sup></span
+                  >
+                </div>
+                <img src="./Public/images/product.jpg" alt="product" />
+              </li>
+              <li class="list__subitem">
+                <div class="head">
+                  <span class="title">product</span>
+                  <span class="price"
+                    >70$<sup><del>100$</del></sup></span
+                  >
+                </div>
+                <img src="./Public/images/product.jpg" alt="product" />
+              </li>
+              <li class="list__subitem">
+                <div class="head">
+                  <span class="title">product</span>
+                  <span class="price"
+                    >70$<sup><del>100$</del></sup></span
+                  >
+                </div>
+                <img src="./Public/images/product.jpg" alt="product" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="header__nav">
+          <h1 id="nav__logo">Template</h1>
+          <ul class="nav__list">
+            <li class="list_item">Home</li>
+            <li class="list_item">products</li>
+            <li class="list_item">plans</li>
+            <li class="list_item">about</li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="landing">
+          <div class="landing_bigHeader">
+            <h1 class="bigHeader_title">welcome in our website</h1>
+            <p class="bigHeader_desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Necessitatibus atque dicta tempore, soluta voluptatibus et.
+            </p>
+          </div>
+          <div class="landing_img">
+            <img id="img" src="./Public/images/laptop.png" alt="landing_img" />
+          </div>
+        </div>
+        <h1 id="community">Join our community</h1>
+        <div class="community bg--parallax">
+          <div class="login">
+            <div class="signin">
+              <h2>SignIn<span class="new">We missed you !</span></h2>
+              <form action="#" method="post">
+                <label for="email"></label>
+                <input
+                  placeholder="Enter your Email .."
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+                <label for="password"></label>
+                <input
+                  placeholder="Enter your Password .."
+                  type="password"
+                  name="password"
+                  id="password"
+                />
+                <button type="submit">Login</button>
+              </form>
+            </div>
+            <div class="signup">
+              <h2>SignUp <span class="new">Are you new client ?</span></h2>
+              <form action="#" method="post">
+                <label for="first"></label>
+                <input
+                  placeholder="Enter your FirstName .."
+                  type="text"
+                  name="first"
+                  id="first"
+                />
+                <label for="last"></label>
+                <input
+                  placeholder="Enter your LastName .."
+                  type="text"
+                  name="last"
+                  id="last"
+                />
+                <label for="email"></label>
+                <input
+                  placeholder="Enter your Email .."
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+
+                <label for="password"></label>
+                <input
+                  placeholder="Enter your Password .."
+                  type="password"
+                  name="password"
+                  id="password"
+                />
+
+                <button type="submit">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <h1 id="community">comparison</h1>
+        <div class="comparison">
+          <div class="item">
+            <div class="item__header">
+              <img src="./Public/images/11-800x600.jpg" alt="Logooooo" />
+            </div>
+            <div class="item__content">
+              <div class="title">
+                <span>Lorem ipsum dolor</span>
+                <br />
+                <span style="font-weight: 400"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing.</span
+                >
+              </div>
+              <div class="progressbars">
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="59" style="width: 59%">
+                      <span class="progress">59%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="100" style="width: 100%">
+                      <span class="progress">100%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="82" style="width: 82%">
+                      <span class="progress">82%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="50" style="width: 50%">
+                      <span class="progress">50%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="70" style="width: 70%">
+                      <span class="progress">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="30" style="width: 30%">
+                      <span class="progress">30%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__header">
+              <img src="./Public/images/11-800x600.jpg" alt="Logooooo" />
+            </div>
+            <div class="item__content">
+              <div class="title">
+                <span>Lorem ipsum dolor</span>
+                <br />
+                <span style="font-weight: 400"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing.</span
+                >
+              </div>
+              <div class="progressbars">
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="80" style="width: 75%">
+                      <span class="progress">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="30" style="width: 30%">
+                      <span class="progress">30%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="80" style="width: 80%">
+                      <span class="progress">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="55" style="width: 55%">
+                      <span class="progress">55%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progressbar">
+                  <div class="progressbar__title">Speed :</div>
+                  <div class="progressbar__bar">
+                    <div class="bar" data-progress="100" style="width: 100%">
+                      <span class="progress">100%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plans">
+          <div class="plan1">
+            <input class="checkbox" type="checkbox" checked="checked" />
+            <h1>Platinum</h1>
+            <h2>90$</h2>
+            <ul>
+              <li>
+                Safe
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                Speed 100%
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                High Quality
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                powerfull
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+            </ul>
+            <button type="submit">Subscribe</button>
+          </div>
+          <div class="plan2">
+            <input class="checkbox" type="checkbox" checked="checked" />
+            <h1>Diamond</h1>
+            <h2>
+              399$<sup><del>500$</del></sup>
+            </h2>
+            <ul>
+              <li>
+                Safe
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                Speed 100%
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                High Quality
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                powerfull
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+            </ul>
+            <button type="submit">Subscribe</button>
+          </div>
+          <div class="plan3">
+            <input class="checkbox" type="checkbox" checked="checked" />
+            <h1>Gold</h1>
+            <h2>210$</h2>
+            <ul>
+              <li>
+                Safe
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                Speed 100%
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                High Quality
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+              <li>
+                powerfull
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
+                  itaque.
+                </p>
+              </li>
+            </ul>
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+        <div class="trackus"></div>
+        <h1 id="community">Take a look..</h1>
+        <div class="gallery">
+          <ul class="cards">
+            <li class="cards__item">
+              <div class="card">
+                <div class="badge">30$</div>
+                <div class="card__image">
+                  <img src="./Public/images/11-800x600.jpg" alt="CardImg" />
+                </div>
+                <div class="card__content">
+                  <div class="card__title">product</div>
+                  <p class="card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero, voluptates voluptatum sit eveniet aliquam officiis
+                    doloremque adipisci quo consequatur inventore.
+                  </p>
+                  <button class="btn btn--block" type="submit">Get Now</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="badge">30$</div>
+                <div class="card__image">
+                  <img src="./Public/images/11-800x600.jpg" alt="CardImg" />
+                </div>
+                <div class="card__content">
+                  <div class="card__title">product</div>
+                  <p class="card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero, voluptates voluptatum sit eveniet aliquam officiis
+                    doloremque adipisci quo consequatur inventore.
+                  </p>
+                  <button class="btn btn--block" type="submit">Get Now</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="badge">30$</div>
+                <div class="card__image">
+                  <img src="./Public/images/11-800x600.jpg" alt="CardImg" />
+                </div>
+                <div class="card__content">
+                  <div class="card__title">product</div>
+                  <p class="card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero, voluptates voluptatum sit eveniet aliquam officiis
+                    doloremque adipisci quo consequatur inventore.
+                  </p>
+                  <button class="btn btn--block" type="submit">Get Now</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="badge">30$</div>
+                <div class="card__image">
+                  <img src="./Public/images/11-800x600.jpg" alt="CardImg" />
+                </div>
+                <div class="card__content">
+                  <div class="card__title">product</div>
+                  <p class="card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero, voluptates voluptatum sit eveniet aliquam officiis
+                    doloremque adipisci quo consequatur inventore.
+                  </p>
+                  <button class="btn btn--block" type="submit">Get Now</button>
+                </div>
+              </div>
+            </li>
+            <li class="cards__item">
+              <div class="card">
+                <div class="badge">30$</div>
+                <div class="card__image">
+                  <img src="./Public/images/11-800x600.jpg" alt="CardImg" />
+                </div>
+                <div class="card__content">
+                  <div class="card__title">product</div>
+                  <p class="card__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero, voluptates voluptatum sit eveniet aliquam officiis
+                    doloremque adipisci quo consequatur inventore.
+                  </p>
+                  <button class="btn btn--block" type="submit">Get Now</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="testimonial">
+            <figure class="test">
+
+                <blockquote>
+          <span class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </span>     
+          <br>     
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum ipsum aliquam cum repellat quod esse ducimus eligendi maiores.</span>          
+                </blockquote>
+                <div class="group">
+
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                  <div class="author">
+                    <h5>Lorem ipsum <span> www.example.com</span></h5>
+                  </div>
+                </div>
+              </figure>
+              <figure class="test">
+
+                <blockquote>
+          <span class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-full"></i>
+          </span>     
+          <br>     
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum ipsum aliquam cum repellat quod esse ducimus eligendi maiores.</span>          
+                </blockquote>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                <div class="author">
+                  <h5>Lorem ipsum <span> www.example.com</span></h5>
+                </div>
+              </figure>
+              
+              <figure class="test">
+
+                <blockquote>
+          <span class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </span>     
+          <br>     
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum ipsum aliquam cum repellat quod esse ducimus eligendi maiores.</span>          
+                </blockquote>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                <div class="author">
+                  <h5>Lorem ipsum <span> www.example.com</span></h5>
+                </div>
+              </figure>
+              <figure class="test">
+
+                <blockquote>
+          <span class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-empty"></i>
+          </span>     
+          <br>     
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum ipsum aliquam cum repellat quod esse ducimus eligendi maiores.</span>          
+                </blockquote>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                <div class="author">
+                  <h5>Lorem ipsum <span> www.example.com</span></h5>
+                </div>
+              </figure>
+              <figure class="test">
+
+                <blockquote>
+          <span class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </span>     
+          <br>     
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum ipsum aliquam cum repellat quod esse ducimus eligendi maiores.</span>          
+                </blockquote>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                <div class="author">
+                  <h5>Lorem ipsum <span> www.example.com</span></h5>
+                </div>
+              </figure>
+
+              
+        </div>
+        <div class="newsletter">
+            <i class="fa fa-newspaper-o"></i>
+            <form action="#" method="post">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="subscribe now..">
+                 <button><i class="fa fa-angle-left"></i></button>
+            </form>
+        </div>
+      </div>
+      <div class="subFooter">
+            <div class="section1">
+                <div class="followUs">
+                    <h2>ContactUs</h2>
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="PaymentAllowed">
+                    <h2>We Accept :</h2>
+                    <i class="fa fa-cc-visa"></i>
+                    <i class="fa fa-paypal"></i>
+                    <i class="fa fa-bank" ></i>
+                </div>
+            </div>
+            <div class="section2">
+                <h1 class="section2__title">About</h2>
+                    <p class="section2__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facilis iste illum fuga numquam hic incidunt aut laborum voluptas voluptatum.</p>
+            </div>
+            <div class="section3">
+                <h1 class="section3__title">Others</h2>
+                <ul class="section3__list">
+                    <li>Terms</li>
+                    <li>Service</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </div>
+      <footer class="footer">
+      <div class="copyen">© 2022 Mahmoud. All rights reserved.</div>
+      <div class="copyar">© 2022 محمود. جميع الحقوق محفوظة.</div>
+      </footer>
+    </main>
+  </body>
+</html>
